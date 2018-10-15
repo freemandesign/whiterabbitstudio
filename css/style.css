@@ -1,0 +1,261 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600');
+
+body {
+  background-image: url("background-image.jpg");
+}
+
+a, p, h1, h2, h3, h4, h5, li {
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 48px;
+
+}
+h3 {
+  font-size: 36px;
+}
+a {
+  color: black;
+  font-size: 24px;
+}
+a:hover {
+  color: black;
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+    padding: 10px 0;
+}
+ul {
+  padding: 0;
+}
+body {
+  padding-top: 54px;
+}
+.container {
+  max-width: 955px;
+    margin: 0 auto;
+    padding: 0;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+/* Nav */
+
+nav {
+  border-bottom: solid 1px;
+max-width: 955px;
+margin: 0 auto;
+padding: 0;
+}
+
+.navbar-nav {
+}
+.nav-b:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+
+}
+.nav-item {
+      padding: 0 30px;
+}
+.nav-link {
+      padding: 20px 5px 0 5px;
+}
+
+/* Header */
+header {
+  height: 700px;
+display: block;
+}
+
+.wts {
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+
+.hero-h1 {
+  margin: 0;
+}
+
+.hero-p {
+      font-size: 24px;
+}
+
+
+/* Projects */
+
+.projects {
+  margin-bottom: 200px;
+}
+.projects {
+  padding-top: 150px;
+}
+.card {
+  border: unset;
+  margin: 20px 0;
+  background-color: unset;
+}
+
+.c-img {
+  margin: -1.25rem;
+}
+
+.c-text {
+  opacity: 0;
+  position: absolute;
+top: 20%;
+transition: 1s;
+    max-width: 200px;
+}
+
+.card:hover .c-text {
+  opacity: .4;
+  transition: 1s;
+}
+
+/* About */
+
+.about-p {
+  font-size: 24px;
+}
+
+.about {
+  margin-bottom: 200px;
+}
+.about {
+  padding-top: 150px;
+}
+/* Contact */
+.contact {
+  margin-bottom: 200px;
+}
+.contact {
+  padding-top: 150px;
+}
+.social {
+  margin-top: 50px;
+}
+.social h3 {
+  display: inline;
+  margin-right: 60px;
+}
+
+.contact-col {
+  padding: 0;
+}
+
+
+form {
+  font-family: 'EB Garamond', serif;
+}
+input {
+  border: unset;
+border-bottom: solid 1px;
+width: 100%;
+height: 70px;
+padding-top: 45px;
+background-color: unset;
+}
+input:focus {
+
+      outline: none;
+}
+textarea {
+  border: unset;
+border-bottom: solid 1px;
+resize: unset;
+width: 100%;
+height: 150px;
+padding-top: 125px;
+background-color: unset;
+
+}
+textarea:focus {
+
+      outline: none;
+}
+.form-btn {
+  background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+.form-btn:focus {
+outline: none;
+}
+
+
+@media (max-width: 992px) {
+.container {
+  max-width: 592px;
+}
+
+  .nav-item {
+    padding: 0;
+    text-align: center;
+  }
+  .c-img {
+  }
+
+  .form {
+    padding: 0;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 592px) {
+  header {
+    height: auto;
+    display: block;
+}
+  .container {
+    padding: 15px;
+    max-width: 420px;
+  }
+  .card {
+    max-width: 160px;
+  }
+  .c-img {
+    max-width: 160px;
+  }
+  .c-text {
+    top: 5%;
+
+    max-width: 120px;
+  }
+  .about-row {
+    padding: 15px;
+
+  }
+  .contact-col {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 36px;
+}
+  .container {
+    padding: 5px;
+  }
+  .form {
+    padding:15px;
+    margin-top: 100px;
+  }
+}
