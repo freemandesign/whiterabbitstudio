@@ -59,6 +59,13 @@ max-width: 955px;
 margin: 0 auto;
 padding: 0;
 }
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
 .navbar-nav {
 }
@@ -258,4 +265,20 @@ outline: none;
     padding:15px;
     margin-top: 100px;
   }
+
+  .c-img {
+    max-width: 150px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.inside-row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
 }
