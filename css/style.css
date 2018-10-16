@@ -222,6 +222,10 @@ display: block;
     flex-direction: row;
     margin-bottom: 0;
     list-style: none;
+
+}
+.nav-item {
+      padding-bottom: 10px;
 }
 .navbar-collapse {
     -ms-flex-preferred-size: 100%;
