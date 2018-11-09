@@ -141,6 +141,9 @@ display: block;
 
 .hero-h1 {
   margin: 0;
+  font-style: italic;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .hero-p {
@@ -309,7 +312,10 @@ outline: none;
 
 }
 @media (max-width: 992px) {
-
+  .wts {
+    padding-top: 150px;
+    margin-bottom: 40px;
+}
   #s1img {
     display: none;
   }
@@ -460,10 +466,7 @@ display: block;
 }
 }
 @media (max-width: 420px) {
-  .wts {
-    padding-top: 150px;
-    margin-bottom: 40px;
-}
+
   #s1img {
     display: none;
   }
