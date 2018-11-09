@@ -8,13 +8,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>White Rabbit Studios</title>
+    <title>White Rabbit Studio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles-->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+
+
 
     <link rel="icon" type="image/png" href="images/fav.png" />
 
@@ -22,6 +28,12 @@
   </head>
 
   <body>
+    <section id="one">
+      <img id="s1img" src="images/background-image2.png">
+      <img id="s1imgmob" src="images/background-image2-mob.png">
+      <img id="s1imgtab" src="images/background-image2-tab.png">
+      <img id="s1imgtabsmall" src="images/background-image2-tabsmall.png">
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg">
@@ -56,43 +68,60 @@
 
         <div class="col-lg-12">
 
-          <h1 class="hero-h1">White Rabbit Studios</h1>
+          <h1 class="hero-h1">White Rabbit Studio</h1>
+          <h3>Graphic & Web Design Boutique</h3>
 
 
 </div>
 </div>
 <div class="row">
 
-  <div class="col-lg-4">
+  <!--<div class="col-lg-4">
 
     <img class="white" src="images/wrs.png">
 
 
-</div>
+</div>-->
+
+
 <div class="col-lg-8">
 
-<p class="hero-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-
+<p class="hero-p">Ursala Hudson, the White Rabbit, collaborates with select companies to define and accentuate their brand in print design. She is passionate about helping others build or modernize their business through their visual appearance, and works closely with clients to create successful solutions in projecting their image. </p>
+</div>
+<div class="col-lg-4">
+</div>
 </div>
 
+<div class="row" >
+
+<div class="col-lg-8">
+<p class="hero-p">  As a Fine Artist working in an array of mediums, tangible graphic work can supplement any digital design project, or be the centering focus. Ursala is trained in pencil, ink & charcoal, acrylic paint, textiles, hand-pressed printmaking, clay, and digital & 35mm films.</p>
+
+</div>
+<div class="col-lg-4">
+</div>
 </div>
         </div>
         <!-- /.col-lg-3 -->
 </header>
 
 
+</section>
+<section id="two">
 
 </div>
 
         <div class="projects container" id="projects">
           <div class="row">
 
-          <div class="col-sm-3">
-            <h3>branding</h3>
-          <ul>
-            <li>1. lorem ipsum</li>
-            <li>2. lorem ipsum</li>
-            <li>3. lorem ipsum</li>
+          <div class="col-sm-3" style="  color: #e0e0d8;">
+            <h2>branding</h2>
+      <ul class="item-list">
+            <li>1. Logo Design</li>
+            <li>2. Logo Design</li>
+            <li>3. Logo Design</li>
+            <li>4. Logo Design</li>
+
 </ul>
         </div>
         <div class="col-sm-9">
@@ -102,40 +131,117 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-6">
               <div class="card c-1 h-100">
                 <div class="card-body">
-                  <img class="c-img" src="images/rectangle-1.jpg">
+                  <img class="c-img" data-toggle="modal" data-target="#1" data-toggle="modal" data-target="#myModal"src="images/logo.jpg">
 
-                  <div class="c-text">
-                  <h4 class="card-title">
-                    <a href="#">1. lorem ipsum</a>
-                  </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                </div>
+                  <!-- Modal -->
+                  <div id="1" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                          <img class="modal-img" src="images/m-brand.jpg">
+                          <div class="m-text">
+                          <h2>Info</h2>
+
+
+                          <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
               </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-6">
               <div class="card c-2 h-100">
                 <div class="card-body">
-                  <img class="c-img" src="images/rectangle-2.jpg">
-                  <div class="c-text">
-                  <h4 class="card-title">
-                    <a href="#">2. lorem ipsum</a>
-                  </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                </div>
+                  <img class="c-img" data-toggle="modal" data-target="#2" src="images/logo-1.jpg">
+                  <!-- Modal -->
+                  <div id="2" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                          <img class="modal-img" src="images/m-brand-1.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-6">
               <div class="card c-3 h-100">
                 <div class="card-body">
-                  <img class="c-img" src="images/rectangle-3.jpg">
-                  <div class="c-text">
-                  <h4 class="card-title">
-                    <a href="#">3. lorem ipsum</a>
-                  </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <img class="c-img" data-toggle="modal" data-target="#3" src="images/logo-2.jpg">
+                  <!-- Modal -->
+                  <div id="3" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                          <img class="modal-img" src="images/m-brand-2.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                        </div>
+                      </div>
+
+                    </div>
                   </div>
+
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="card c-3 h-100">
+                <div class="card-body">
+                  <img class="c-img" data-toggle="modal" data-target="#4" src="images/logo-3.jpg">
+                  <!-- Modal -->
+                  <div id="4" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                          <img class="modal-img" src="images/m-brand-3.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
                   </div>
               </div>
             </div>
@@ -157,13 +263,13 @@
       <div class="row">
 
       <div class="col-sm-3">
-        <h3>posters</h3>
-      <ul>
-        <li>1. lorem ipsum</li>
-        <li>2. lorem ipsum</li>
-        <li>3. lorem ipsum</li>
-        <li>4. lorem ipsum</li>
-        <li>5. lorem ipsum</li>
+        <h2>promo</h2>
+      <ul class="item-list">
+        <li>1. Promo Poster</li>
+        <li>2. Promo Poster</li>
+        <li>3. Promo Poster</li>
+        <li>4. Promo Poster</li>
+        <li>5. Promo Poster</li>
 </ul>
     </div>
     <div class="col-sm-9">
@@ -173,70 +279,121 @@
         <div class="col-lg-4 col-md-6 col-sm-6 col-6">
           <div class="card c-1 h-100">
             <div class="card-body">
-              <img class="c-img" src="images/rectangle-1.jpg">
+              <img class="c-img" data-toggle="modal" data-target="#5" src="images/promo.jpg">
+              <!-- Modal -->
+              <div id="5" class="modal fade" role="dialog">
+                <div class="modal-dialog">
 
-              <div class="c-text">
-              <h4 class="card-title">
-                <a href="#">1. lorem ipsum</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-            </div>
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                      <img class="modal-img" src="images/m-promo.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
           </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-6">
           <div class="card c-2 h-100">
             <div class="card-body">
-              <img class="c-img" src="images/rectangle-2.jpg">
-              <div class="c-text">
-              <h4 class="card-title">
-                <a href="#">2. lorem ipsum</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-            </div>
+              <img class="c-img" data-toggle="modal" data-target="#6" src="images/promo-1.jpg">
+              <!-- Modal -->
+              <div id="6" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                      <img class="modal-img" src="images/m-promo-1.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-6">
           <div class="card c-3 h-100">
             <div class="card-body">
-              <img class="c-img" src="images/rectangle-3.jpg">
-              <div class="c-text">
-              <h4 class="card-title">
-                <a href="#">3. lorem ipsum</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              <img class="c-img" data-toggle="modal" data-target="#7" src="images/promo-2.jpg">
+              <!-- Modal -->
+              <div id="7" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                      <img class="modal-img" src="images/m-promo-2.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                    </div>
+                  </div>
+
+                </div>
               </div>
+
               </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-6">
           <div class="card c-4 h-100">
             <div class="card-body">
-              <img class="c-img" src="images/rectangle-4.jpg">
-              <div class="c-text">
-              <h4 class="card-title">
-                <a href="#">4. lorem ipsum</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-              </div>
-              </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-          <div class="card c-5 h-100">
-            <div class="card-body">
-              <img class="c-img" src="images/rectangle-5.jpg">
-              <div class="c-text">
-              <h4 class="card-title">
-                <a href="#">5. lorem ipsum</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-            </div>
+              <img class="c-img" data-toggle="modal" data-target="#8" src="images/promo-3.jpg">
+              <!-- Modal -->
+              <div id="8" class="modal fade" role="dialog">
+                <div class="modal-dialog">
 
-            </div>
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                      <img class="modal-img" src="images/m-promo-3.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              </div>
           </div>
         </div>
+
 
 
 
@@ -252,32 +409,110 @@
 </div>
 <!-- /.container -->
 
-
-<!-- /about -->
-<div class="about container" id="about">
+<!-- /.container -->
+<div class="projects container">
   <div class="row">
 
-  <div class="col-sm-3 title">
-    <h3>about</h3>
+  <div class="col-sm-3">
+    <h2>publish</h2>
+   <ul class="item-list">
+    <li>1. 8.5X11</li>
+    <li>2. 8.5X11</li>
+    <li>3. 5.5X8.8</li>
+</ul>
 </div>
-<div class="col-lg-9">
+<div class="col-sm-9">
 
-  <div class="row inside-row  about-row">
-    <h3>Ursala</h3>
+  <div class="row inside-row">
 
-    <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-1 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#9" src="images/publish.jpg">
+          <!-- Modal -->
+          <div id="9" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                  <img class="modal-img" src="images/m-publish.jpg">
+<div class="m-text">
+<h2>Info</h2>
 
 
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
 
 
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-2 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#10" src="images/publish-1.jpg">
+          <!-- Modal -->
+          <div id="10" class="modal fade" role="dialog">
+            <div class="modal-dialog">
 
-  </div>
-  <div class="row inside-row  about-row">
-    <h3>Experience</h3>
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-    <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                  <img class="modal-img" src="images/m-publish-1.jpg">
+<div class="m-text">
+<h2>Info</h2>
 
 
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-3 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#11" src="images/publish-2.jpg">
+          <!-- Modal -->
+          <div id="11" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                  <img class="modal-img" src="images/m-publish-2.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          </div>
+      </div>
+    </div>
 
 
 
@@ -294,35 +529,316 @@
 <!-- /.container -->
 
 
-<!-- /contact -->
+<!-- /.container -->
+<div class="projects container">
+  <div class="row">
 
-<div class="contact container" id="contact">
+  <div class="col-sm-3">
+    <h2>product</h2>
+  <ul class="item-list">
+    <li>1. Product Design & Photography</li>
+    <li>2. Product Design & Photography</li>
+    <li>3. Product Design & Photography</li>
+</ul>
+</div>
+<div class="col-sm-9">
+
+  <div class="row inside-row">
+
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-1 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#12" src="images/product.jpg">
+          <!-- Modal -->
+          <div id="12" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                  <img class="modal-img" src="images/m-product.jpg">
+<div class="m-text">
+<h2>Info</h2>
+
+
+<p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-2 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#13" src="images/product-1.jpg">
+          <!-- Modal -->
+          <div id="13" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                  <img class="modal-img" src="images/m-product-1.jpg">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-3 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#14" src="images/product-2.jpg">
+          <!-- Modal -->
+          <div id="14" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                  <img class="modal-img" src="images/m-product-2.jpg">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.col-lg-9 -->
+
+</div>
+<!-- /.row -->
+
+</div>
+<!-- /.container -->
+<!-- /.container -->
+
+<div class="projects container">
+
+  <div class="row">
+
+  <div class="col-sm-3">
+    <h2>web</h2>
+  <ul class="item-list">
+    <li>1. Moore & Co Inc</li>
+    <li>2. Pagosa Springs Landscaping</li>
+    <li>3. Pagosa Storage</li>
+    <li>4. Alaskana Botanicals</li>
+</ul>
+</div>
+<div class="col-sm-9">
+
+  <div class="row inside-row">
+
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-1 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#15"  src="images/web.jpg">
+          <!-- Modal -->
+          <div id="15" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <iframe src="http://mooreandcoinc.com/"></iframe>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-2 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#16"src="images/web-1.jpg">
+          <!-- Modal -->
+          <div id="16" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <iframe src="http://pagosaspringslandscaping.com/"></iframe>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-3 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#17" src="images/web-2.jpg">
+          <!-- Modal -->
+          <div id="17" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <iframe src="http://pagosastorage.com/"></iframe>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      <div class="card c-4 h-100">
+        <div class="card-body">
+          <img class="c-img" data-toggle="modal" data-target="#18" src="images/web-3.jpg">
+          <!-- Modal -->
+          <div id="18" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <iframe src="http://alaskanabotanicals.com/"></iframe>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          </div>
+
+          </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.col-lg-9 -->
+
+</div>
+<!-- /.row -->
+
+</div>
+<!-- /.container -->
+</section>
+<section id="three">
+<!-- /about -->
+<div class="about container" id="about">
   <div class="row">
 
   <div class="col-sm-3 title">
-    <h3>contact</h3>
+    <h2>about</h2>
+</div>
+<div class="col-lg-9 padding-nill">
+
+    <h2>Ursala</h2>
+
+    <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <div id="ursala"class="col-lg-12">
+<img id="ursala" src="images/ursala.jpg" alt="Photo of Ursala-photo credit to Wildcrafted Photography: http://www.wildcraftedphotography.com/">
+
+
+
+</div>
+  </div>
+</div>
+</div>
+</section>
+<section id="four">
+
+<div class="about container" id="about">
+
+  <div class="row">
+    <div class="col-sm-3 title">
+</div>
+<div class="col-lg-9 padding-nill">
+    <h2>Experience</h2>
+
+    <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+
+</div>
+
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<!-- /contact -->
+
+<div class="contact container" id="contact">
+  <div class="row inside-row">
+
+  <div class="col-sm-3 title">
+    <h2>contact</h2>
 </div>
 <div class="col-lg-9">
 
-  <div class="inside-row row">
+  <div class="inside-row row contact-row">
     <div class="col-lg-6 contact-col">
 
-    <h3>Info</h3>
+    <h2>Info</h2>
 
 
     <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 <div class="social">
-    <a href="#"><h3>Facebook</h3></a>
-    <a href="#"><h3>Google</h3></a>
+    <a href="https://www.instagram.com/ursalarose"><h3><i class="fab fa-facebook-square"></i></h3></a>
+    <a href="https://www.facebook.com/whiterabbitstudioco/"><h3><i class="fab fa-instagram"></i></h3></a>
+    <a href="https://www.linkedin.com/in/ursala-hudson-ab93aa33/"><h3><i class="fab fa-linkedin"></i></h3></a>
+
 
   </div>
 
   </div>
   <div class="form col-lg-6">
 
-    <h3>Form</h3>
+    <h2>Form</h2>
 
-    <form class="contact100-form validate-form">
+    <form class="contact100-form validate-form" id="contact-form" method="post" action="contact.php" role="form" target="_self">
 
     				<div class="wrap-input100 validate-input" data-validate="Name is required">
     					<input class="input100" type="text" name="name" placeholder="Name...">
@@ -330,16 +846,17 @@
     				</div>
 
     				<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-    					<input class="input100" type="text" name="email" placeholder="Email addess...">
+    					<input class="input100" type="text" name="email" placeholder="Email...">
     					<span class="focus-input100"></span>
     				</div>
 
     				<div class="wrap-input100">
-    					<input class="input100" type="text" name="phone" placeholder="Phone Nuxler...">
+    					<input class="input100" type="text" name="phone" placeholder="Phone...">
     					<span class="focus-input100"></span>
     				</div>
 
     				<div class="wrap-input100 validate-input" data-validate="Message is required">
+
     					<textarea class="input100" name="message" placeholder="Questions/Comments..."></textarea>
     					<span class="focus-input100"></span>
     				</div>
@@ -347,7 +864,7 @@
     				<div class="container-contact100-form-btn">
     					<div class="wrap-contact100-form-btn">
     						<div class="contact100-form-bgbtn"></div>
-    						<button class="contact100-form-btn form-btn">
+    						<button class="contact100-form-btn form-btn" type="submit" value="Send message">
     							Send
     						</button>
     					</div>
@@ -370,17 +887,18 @@
 </div>
 <!-- /.container -->
 
-    <!-- Footer
+<!--
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
       </div>
       <!-- /.container
     </footer>
--->
+  -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="contact.js"></script>
 
   </body>
 
