@@ -426,6 +426,13 @@ textarea:focus {
 }
 
 @media (max-width: 592px) {
+  .c-img {
+    -webkit-filter: unset;
+    /* Safari 6.0 - 9.0 */
+    filter: unset;
+    transition: .5s;
+    cursor: pointer;
+  }
   .nav-link {
     padding: 0;
     padding-top: 20px;
@@ -552,8 +559,7 @@ textarea:focus {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -5px;
-    margin-left: -5px;
+    margin-right: unset;
   }
   .social h3 {
     margin-right: 50px;
