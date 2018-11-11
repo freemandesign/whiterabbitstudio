@@ -578,6 +578,10 @@ textarea:focus {
   .col-sm-9 {
     padding-right: 0;
   }
+  button {
+    padding: 5px 3px;
+
+  }
 }
 
 @media (max-width: 350px) {}
