@@ -578,9 +578,8 @@ textarea:focus {
   .col-sm-9 {
     padding-right: 0;
   }
-  button {
+  .navbar-toggler {
     padding: 5px 3px;
-
   }
 }
 
