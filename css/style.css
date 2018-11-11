@@ -514,6 +514,7 @@ textarea:focus {
 }
 
 @media (max-width: 420px) {
+
   #s1img {
     display: none;
   }
@@ -573,6 +574,9 @@ textarea:focus {
   }
   .contact-col {
     padding: 0;
+  }
+  .col-sm-9 {
+    padding-right: 0;
   }
 }
 
