@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i');
+
 body {
   background-image: url("background-image.jpg");
   background-size: cover;
@@ -31,7 +33,7 @@ section#four {
 }
 
 a, p, h1, h2, h3, h4, h5, li {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Old Standard TT','EB Garamond', serif;
   font-weight: 300;
 }
 
@@ -253,7 +255,7 @@ header {
 }
 
 form {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Old Standard TT', 'EB Garamond', serif;
 }
 
 input {
