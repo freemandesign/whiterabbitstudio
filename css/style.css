@@ -358,8 +358,8 @@ textarea:focus {
 }
 
 @media (min-width: 592px) and (max-width: 992px) {
-  .padding-nill {
-    padding: 0;
+  .inside-row {
+      margin-left: 0;
   }
   .modal-content {
     height: 100%;
@@ -374,9 +374,7 @@ textarea:focus {
     width: 100%;
   }
 
-  .inside-row {
-    margin-left: -15px;
-  }
+
   .wts {
     padding-top: 150px;
     margin-bottom: 40px;
@@ -442,6 +440,9 @@ textarea:focus {
 }
 
 @media (max-width: 592px) {
+  .inside-row {
+    margin-left: -15px;
+  }
   .modal-content {
     height: 100%;
     overflow: scroll;
